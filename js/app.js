@@ -80,7 +80,7 @@ function showDescription1(){
     }
 }
 
-RH.addEventListener('click', showDescription2);
+FIT.addEventListener('click', showDescription2);
 
 function showDescription2(){
     if(description2.style.display === 'block'){
@@ -90,7 +90,7 @@ function showDescription2(){
     }
 }
 
-FIT.addEventListener('click', showDescription3);
+D.addEventListener('click', showDescription3);
 
 function showDescription3(){
     if(description3.style.display == 'block'){
@@ -147,5 +147,15 @@ function showDescription8(){
         description8.style.display = 'none';
     }else{
         description8.style.display = 'block';
+    }
+}
+
+TA.addEventListener('click', showDescription9);
+
+function showDescription9(){
+    if(description9.style.display === 'block'){
+        description9.style.display = 'none';
+    }else{
+        description9.style.display = 'block';
     }
 }

@@ -51,7 +51,9 @@ body{
     margin: 5px;
 }
 
-#icon7, #icon8, #icon9, #icon10, #icon11, #icon12, #icon13, #icon14{
+#icon7, #icon8, #icon9, 
+#icon10, #icon11, #icon12, 
+#icon13, #icon14, #icon15 {
     width: 75px;
     height: 75px;
     border: 1px solid black;
@@ -63,11 +65,15 @@ body{
     font-weight: bold;
 }
 
-#company1, #company2, #company3, #company4, #company5, #company6, #company7, #company8{
+#company1, #company2, #company3, 
+#company4, #company5, #company6, 
+#company7, #company8, #company9 {
     font-size: 20px;
 }
 
-#position1, #position2, #position3, #position4, #position5, #position6, #position7, #position8{
+#position1, #position2, #position3, 
+#position4, #position5, #position6, 
+#position7, #position8, #position9 {
     font-size: 20px;
     font-weight: bold;
 }
@@ -86,7 +92,9 @@ body{
     display: none;
 }
 
-#description1, #description2, #description3, #description4, #description5, #description6, #description7, #description8{
+#description1, #description2, #description3, 
+#description4, #description5, #description6, 
+#description7, #description8, #description9 {
     display: none;
 }
 
