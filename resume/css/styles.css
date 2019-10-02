@@ -1,0 +1,103 @@
+body{
+    background-color: white;
+}
+
+.section1{
+    border: 3px solid black;
+    text-align: center;
+    background-image: url("https://media-prideofmaui.netdna-ssl.com/blog/wp-content/uploads/2017/01/Top-10-Little-Beach-Towns-in-Hawaii-header.jpg");
+    background-size: 100% 100%;
+}
+
+#icon1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 400px;
+    box-shadow: 5px 5px;
+    -webkit-transition: -webkit-transform 1.0s ease-in-out;
+    transition: transform 1.0s ease-in-out;
+}
+
+#icon1:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#name{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#location, #phone, #email, #linkedin{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+.section2, .section3, .section4, .section5, .section6{ 
+    background-color: beige;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#icon2, #icon3, #icon4, #icon5, #icon6{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+#icon7, #icon8, #icon9, 
+#icon10, #icon11, #icon12, 
+#icon13, #icon14, #icon15 {
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+#title1, #title2, #title3, #title4, #title5{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#company1, #company2, #company3, 
+#company4, #company5, #company6, 
+#company7, #company8, #company9 {
+    font-size: 20px;
+}
+
+#position1, #position2, #position3, 
+#position4, #position5, #position6, 
+#position7, #position8, #position9 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section3{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.class{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#list1, #list2, #list3, #list4, #list5, #list6, #list7{
+    display: none;
+}
+
+#description1, #description2, #description3, 
+#description4, #description5, #description6, 
+#description7, #description8, #description9 {
+    display: none;
+}
+
+.click:hover{
+    color: salmon;
+}
