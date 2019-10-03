@@ -1,28 +1,28 @@
 // The following function adds a smooth scrolling to all links
 
-$(document).ready(function(){
-    $("a").on('click', function(event){
+// $(document).ready(function(){
+//     $("a").on('click', function(event){
 
-        // Makes sure this.Link as a value before overriding default behavior
-        if (this.Link !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
+//         // Makes sure this.Link as a value before overriding default behavior
+//         if (this.Link !== "") {
+//             // Prevent default anchor click behavior
+//             event.preventDefault();
 
-            // Store Link
-            var Link = this.Link;
+//             // Store Link
+//             var Link = this.Link;
 
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (2000) specifies the number of milliseconds it takes to scroll to the specifies area
-            $('html, body').animate({
-                scrollTop: $(Link).offset.top
-            }, 2000, function(){
+//             // Using jQuery's animate() method to add smooth page scroll
+//             // The optional number (2000) specifies the number of milliseconds it takes to scroll to the specifies area
+//             $('html, body').animate({
+//                 scrollTop: $(Link).offset.top
+//             }, 2000, function(){
 
-                // Add Link (#) to URL when done scrolling (default click behavior)
-                window.location.Link = "Link;"
-            });
-        } // End if
-    });
-});
+//                 // Add Link (#) to URL when done scrolling (default click behavior)
+//                 window.location.Link = "Link;"
+//             });
+//         } // End if
+//     });
+// });
 
 // These functions open and close the contact form
 function openForm() {
