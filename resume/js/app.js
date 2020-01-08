@@ -80,7 +80,7 @@ function showDescription1(){
     }
 }
 
-FIT.addEventListener('click', showDescription2);
+WITS.addEventListener('click', showDescription2);
 
 function showDescription2(){
     if(description2.style.display === 'block'){
@@ -90,7 +90,7 @@ function showDescription2(){
     }
 }
 
-D.addEventListener('click', showDescription3);
+BR.addEventListener('click', showDescription3);
 
 function showDescription3(){
     if(description3.style.display == 'block'){
@@ -120,7 +120,7 @@ function showDescription5(){
     }
 }
 
-IHS.addEventListener('click', showDescription6);
+SO.addEventListener('click', showDescription6);
 
 function showDescription6(){
     if(description6.style.display === 'block'){
@@ -130,7 +130,7 @@ function showDescription6(){
     }
 }
 
-TCF.addEventListener('click', showDescription7);
+IHS.addEventListener('click', showDescription7);
 
 function showDescription7(){
     if(description7.style.display === 'block'){
