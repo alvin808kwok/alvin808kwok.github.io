@@ -70,7 +70,7 @@ function showList7(){
     }
 }
 
-FP.addEventListener('click', showDescription1);
+/* FP.addEventListener('click', showDescription1);
 
 function showDescription1(){
     if(description1.style.display === 'block'){
@@ -79,7 +79,7 @@ function showDescription1(){
         description1.style.display = 'block';
     }
 }
-
+ */
 WITS.addEventListener('click', showDescription2);
 
 function showDescription2(){
